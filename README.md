@@ -1,33 +1,10 @@
-# React + TypeScript + Vite
+# React + TypeScript + Vite Candidate Search App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
+This candidate search application that calls the GitHub API and renders data in the browser. The application's API, which retrieves data from the GitHub API, displays candidate data upon the page loading. Users can save candidate information to a list of prospective candidates. Users should be able to see a list of previously saved potential candidates with their name, username, location, avatar, email, html_url, and company. The list of potential candidates should persist and be available for viewing. 
 
-Currently, two official plugins are available:
+## Installation
+Type **npm install** into the terminal to download all necessary packages. Next, run: **npm run build** in the terminal to start the app locally. Finally, run: **npm run dev** in order to render the app locally in your browser. 
 
-* [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md), which uses [Babel](https://babeljs.io/) for Fast Refresh
-* [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc), which uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you're developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-* Configure the top-level `parserOptions` property as follows:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-* Replace `plugin:@typescript-eslint/recommended` with `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`.
-* Optionally, add `plugin:@typescript-eslint/stylistic-type-checked`.
-* Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` and `plugin:react/jsx-runtime` to the `extends` list.
-
----
-© 2024 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+## Credits
+Class slack collaborations, Alexis Javier (Tutor), Xpert Learning Assistant
